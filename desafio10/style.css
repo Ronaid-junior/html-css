@@ -1,14 +1,14 @@
 @charset "utf-8";
 :root{
---cor1: #B8FFC3;
---cor2: #69FA81;
---cor3: #51C264;
---cor4: #337A3F;
---cor5: #657E69;
+    --cor1: #B8FFC3;
+    --cor2: #69FA81;
+    --cor3: #51C264;
+    --cor4: #337A3F;
+    --cor5: #657E69;
 
---fonte-padrão: Arial, Helvetica, sans-serif;
---font-destaque: bebas neue;
---font-tit: android;
+    --fonte-padrão: Arial, Helvetica, sans-serif;
+    --font-destaque: bebas neue;
+    --font-tit: android;
 }
 
 *{
@@ -63,9 +63,9 @@ nav > a {
 
 nav > a:hover{
 
-background-color: var(--cor5);
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
+    background-color: var(--cor5);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 main{
@@ -125,7 +125,7 @@ div.video > iframe {
 
     position: absolute; /* Utilizando este atributo pode-se modificar os atributos abraixo */
     top: 5%;
-    left 5%;
+    left: 5%;
     width: 90%;
     height: 90%;
 }
